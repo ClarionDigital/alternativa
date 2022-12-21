@@ -70,7 +70,7 @@ const Login = () => {
 			<CssBaseline />
 			<div className={classes.paper}>
 				<div>
-					<img style={{ margin: "0 auto", height: "80px", width: "100%" }} src="https://uploaddeimagens.com.br/images/004/062/158/original/logo.png" alt="FIX" />
+					<img style={{ margin: "0 auto", height: "80px", width: "100%" }} src="https://uploaddeimagens.com.br/images/004/266/286/original/talicrm_logo.jpg" alt="TaliCRM" />
 				</div>
 				<Typography component="h1" variant="h5">
 					{i18n.t("login.title")}

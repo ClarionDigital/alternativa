@@ -3,11 +3,11 @@ name: ci
 on:
   push:
     branches:
-      - "deploy"
+      - "master"
 
 jobs:
   deploy:
-    if: github.ref == 'refs/heads/deploy'
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
 
     steps:
@@ -25,8 +25,8 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           envs: GB_TOKEN
           script: |
-            git clone https://$GB_TOKEN:x-oauth-basic@github.com/overdollc/tali.git
-            cd tali
-            git checkout deploy
+            git clone https://$GB_TOKEN:x-oauth-basic@github.com/overdollc/tali-v2.git
+            cd tali-v2
+            git checkout master
             git pull origin
-            docker compose up --build -d
+            docker-compose up --build --force-recreate -d
