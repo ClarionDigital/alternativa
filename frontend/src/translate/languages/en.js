@@ -131,6 +131,9 @@ const messages = {
 					actions: "Actions",
 				},
 			},
+			solar: {
+				title: "Solar"
+			},
 			contactModal: {
 				title: {
 					add: "Add contact",
@@ -250,6 +253,7 @@ const messages = {
 					connections: "Connections",
 					tickets: "Tickets",
 					contacts: "Contacts",
+					solar: "Solar",
 					queues: "Queues",
 					administration: "Administration",
 					users: "Users",
@@ -344,6 +348,7 @@ const messages = {
 			ticketOptionsMenu: {
 				delete: "Delete",
 				transfer: "Transfer",
+				solar: "Solar",
 				confirmationModal: {
 					title: "Delete ticket #",
 					titleFrom: "from contact ",

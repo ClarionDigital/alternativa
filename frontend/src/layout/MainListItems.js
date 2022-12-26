@@ -10,6 +10,7 @@ import { Badge, Collapse, List } from "@material-ui/core";
 import DashboardOutlinedIcon from "@material-ui/icons/DashboardOutlined";
 import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import SyncAltIcon from "@material-ui/icons/SyncAlt";
+import BuildIcon from '@material-ui/icons/Build';
 import SettingsOutlinedIcon from "@material-ui/icons/SettingsOutlined";
 import PeopleAltOutlinedIcon from "@material-ui/icons/PeopleAltOutlined";
 import ContactPhoneOutlinedIcon from "@material-ui/icons/ContactPhoneOutlined";
@@ -252,6 +253,12 @@ const MainListItems = (props) => {
         to="/contacts"
         primary={i18n.t("mainDrawer.listItems.contacts")}
         icon={<ContactPhoneOutlinedIcon />}
+      />
+
+      <ListItemLink
+        to="/solar"
+        primary={i18n.t("mainDrawer.listItems.solar")}
+        icon={<BuildIcon />}
       />
 
       <ListItemLink

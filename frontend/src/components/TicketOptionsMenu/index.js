@@ -96,6 +96,9 @@ const TicketOptionsMenu = ({ ticket, menuOpen, handleClose, anchorEl }) => {
 						</MenuItem>
 					)}
 				/>
+				<MenuItem onClick={handleOpenTransferModal}>
+					{i18n.t("ticketOptionsMenu.solar")}
+				</MenuItem>
 			</Menu>
 			<ConfirmationModal
 				title={`${i18n.t("ticketOptionsMenu.confirmationModal.title")}${

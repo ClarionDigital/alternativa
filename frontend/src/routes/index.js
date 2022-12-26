@@ -29,6 +29,7 @@ import CampaignsConfig from "../pages/CampaignsConfig";
 import CampaignReport from "../pages/CampaignReport";
 import Annoucements from "../pages/Annoucements";
 import Chat from "../pages/Chat";
+import Solar from "../pages/Solar";
 
 const Routes = () => {
   const [showCampaigns, setShowCampaigns] = useState(false);
@@ -77,6 +78,7 @@ const Routes = () => {
                 />
                 <Route exact path="/tags" component={Tags} isPrivate />
                 <Route exact path="/contacts" component={Contacts} isPrivate />
+                <Route exact path="/solar" component={Solar} isPrivate />
                 <Route exact path="/helps" component={Helps} isPrivate />
                 <Route exact path="/users" component={Users} isPrivate />
                 <Route

@@ -304,6 +304,7 @@ const messages = {
 					tickets: "Atenciones",
 					quickMessages: "Respuestas rápidas",
 					contacts: "Contactos",
+					solar: "Solar",
 					queues: "Filas & Chatbot",
 					tags: "Tags",
 					administration: "Administración",
@@ -643,6 +644,7 @@ const messages = {
 				schedule: "Agendamiento",
 				delete: "Eliminar",
 				transfer: "Transferir",
+				solar: "Solar",
 				registerAppointment: "Notas de contacto",
 				appointmentsModal: {
 					title: "Observaciones de Contato",
