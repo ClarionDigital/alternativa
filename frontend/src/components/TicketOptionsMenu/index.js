@@ -12,6 +12,7 @@ import { Can } from "../Can";
 import { AuthContext } from "../../context/Auth/AuthContext";
 
 import ScheduleModal from "../ScheduleModal";
+import { Link } from "react-router-dom";
 
 const TicketOptionsMenu = ({ ticket, menuOpen, handleClose, anchorEl }) => {
 	const [confirmationOpen, setConfirmationOpen] = useState(false);
@@ -96,8 +97,8 @@ const TicketOptionsMenu = ({ ticket, menuOpen, handleClose, anchorEl }) => {
 						</MenuItem>
 					)}
 				/>
-				<MenuItem onClick={handleOpenTransferModal}>
-					{i18n.t("ticketOptionsMenu.solar")}
+				<MenuItem>
+					<Link to="/solar" underline="none">{i18n.t("ticketOptionsMenu.solar")}</Link>
 				</MenuItem>
 			</Menu>
 			<ConfirmationModal

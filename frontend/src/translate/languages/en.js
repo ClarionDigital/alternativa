@@ -132,45 +132,36 @@ const messages = {
 				},
 			},
 			solar: {
-				title: "Solar"
-			},
-			contactModal: {
-				title: {
-					add: "Add contact",
-					edit: "Edit contact",
+				title: "Solar",
+				searchPlaceholder: "Search...",
+				userinfo: {
+					form: {
+						firstname: "First Name",
+						lastname: "Last Name",
+						nationalid: "National ID",
+						email: "Email",
+						phone: "Phone",
+						phoneopt: "Phone OPT",
+						country: "Country",
+						city: "City",
+						street: "Street",
+						lat: "LAT",
+						lgn: "LGN",
+						clienttype: "Client Type",
+					}
 				},
-				form: {
-					mainInfo: "Contact details",
-					extraInfo: "Additional information",
-					name: "Name",
-					number: "Whatsapp number",
-					email: "Email",
-					extraName: "Field name",
-					extraValue: "Value",
-				},
-				buttons: {
-					addExtraInfo: "Add information",
-					okAdd: "Add",
-					okEdit: "Save",
-					cancel: "Cancel",
-				},
-				success: "Contact saved successfully.",
-			},
-			queueModal: {
-				title: {
-					add: "Add queue",
-					edit: "Edit queue",
-				},
-				form: {
-					name: "Name",
-					color: "Color",
-					greetingMessage: "Greeting Message",
+				electinvoice: {
+					form: {
+						user: "User",
+						ratetype: "Rate Type",
+						distributor: "Distributor",
+						date: "Date",
+					}
 				},
 				buttons: {
-					okAdd: "Add",
-					okEdit: "Save",
 					cancel: "Cancel",
-				},
+					submit: "Submit",
+				}
 			},
 			userModal: {
 				title: {
