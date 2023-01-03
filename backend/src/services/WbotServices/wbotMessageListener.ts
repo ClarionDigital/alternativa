@@ -424,7 +424,7 @@ const verifyQueue = async (
     return;
   }
 
-  const selectedOption =
+  const selectedOption = 1
     msg.message?.conversation ||
     (msg.message?.extendedTextMessage?.text as string);
 
